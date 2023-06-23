@@ -1,4 +1,4 @@
-import background from "../assets/artpage.jpg"
+import background from "../assets/art.jpg"
 import Navbar from "./Navbar"
 function Art() {
   return (
@@ -79,9 +79,6 @@ function Art() {
     </div>
   </div>
 </div>
-
-
-
 
     </>
   )
