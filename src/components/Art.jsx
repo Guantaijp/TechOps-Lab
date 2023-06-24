@@ -1,5 +1,9 @@
 import background from "../assets/art.jpg"
 import Navbar from "./Navbar"
+import abstract from "../assets/abstract.jpg"
+import finearts from "../assets/finearts.jpg"
+import traditional from "../assets/traditional.jpg"
+import { Card } from 'antd';
 function Art() {
   return (
 
@@ -10,7 +14,8 @@ function Art() {
           style={{
             backgroundImage: `url(${background})`,
             backgroundPosition: 'center',
-            backgroundSize: 'cover' // or 'cover'
+            backgroundSize: 'cover', // or 'cover'
+            height: '600px' // Adjust the desired height here
           }}
         >
           <Navbar />
@@ -25,60 +30,51 @@ function Art() {
         </div>
 
       </div>
-      <div className="flex justify-center items-center">
-        <h3 className="text-center font-bold">VIRTUAL EXHIBITIONS</h3>
-      </div>
-      <div className="flex justify-center">
-  <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700" style={{ maxWidth: '300px' }}>
-      <img
-        className="rounded-t-lg h-40 object-cover"
-        src="https://t3.ftcdn.net/jpg/05/58/39/58/240_F_558395850_qRCV473bBASDTKxNd9azjBXzr7mBgij5.jpg"
-        alt=""
-      />
-      <div className="p-4">
-        <h5 className="mb-2 text-lg font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-          Card title
-        </h5>
-        <p className="mb-4 text-sm text-neutral-600 dark:text-neutral-200">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
-    </div>
 
-    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700" style={{ maxWidth: '300px' }}>
-      <img
-        className="rounded-t-lg h-40 object-cover"
-        src="https://i.pinimg.com/564x/0a/66/5f/0a665ff60a64ea50405019a58d04230c.jpg"
-        alt=""
-      />
-      <div className="p-4">
-        <h5 className="mb-2 text-lg font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-          Card title
-        </h5>
-        <p className="mb-4 text-sm text-neutral-600 dark:text-neutral-200">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
-    </div>
+      <div className="flex flex-col items-center justify-center m-4">
+        <h1 className="text-2xl font-bold  text-[#A47E1B]">VIRTUAL EXHIBITIONS</h1>
+        <hr className="border-[#A47E1B] border-2 w-10 items-center" />
+        <div className="flex flex-row justify-evenly items-center flex-wrap">
+          {/* Tech */}
+          <div className="m-4">
+            <div className="w-72 bg-white hover">
+              <h1 className="text-start text-lg font-bold">Fine Arts</h1>
+              <hr className="border-gray-300 mt-2" />
+              <img alt="example" src={finearts} className="w-full h-40 object-cover mt-2" />
+              <div className="my-4">
+                <p className="text-lg font-serif">Boundless Expressions</p>
+                <p className="text-lg font-serif ">Reflecting Beauty</p>
+                <p className="text-lg font-serif">Challenging Perspectives</p>
+              </div>
+            </div>
 
-    <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700" style={{ maxWidth: '300px' }}>
-      <img
-        className="rounded-t-lg h-40 object-cover"
-        src="https://i.pinimg.com/564x/cd/c5/b5/cdc5b5a646833a3e065b86c4e76671f4.jpg"
-        alt=""
-      />
-      <div className="p-4">
-        <h5 className="mb-2 text-lg font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-          Card title
-        </h5>
-        <p className="mb-4 text-sm text-neutral-600 dark:text-neutral-200">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
+          </div>
+          {/* Art */}
+          <div className="m-4">
+            <Card
+              hoverable
+              style={{ width: 332 }}
+              cover={<img alt="example" src={abstract} />}
+            >
+              <p className="text-lg font-bold"> Writing Agency</p>
+              <p className="text-sm">Nyakwar Opere Art Space, a creative haven where art comes to life. We are dedicated to providing a vibrant and inspiring environment for artists from all disciplines. Whether you're a painter or fine artist, our art space is designed to nurture your talent and foster collaboration. Join us as we celebrate the power of art and create a community where imagination knows no bounds.</p>
+
+            </Card>
+          </div>
+          {/* Writing */}
+          <div className="m-4">
+            <Card
+              hoverable
+              style={{ width: 332 }}
+              cover={<img alt="example" src={traditional} />}
+            >
+              <p className="text-lg font-bold"> Art Gallery</p>
+              <p className="text-sm">Nyakwar Opere Art Space, a creative haven where art comes to life. We are dedicated to providing a vibrant and inspiring environment for artists from all disciplines. Whether you're a painter or fine artist, our art space is designed to nurture your talent and foster collaboration. Join us as we celebrate the power of art and create a community where imagination knows no bounds.</p>
+            </Card>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
+
 
     </>
   )
