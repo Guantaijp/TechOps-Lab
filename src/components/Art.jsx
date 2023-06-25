@@ -89,7 +89,10 @@ function Art() {
           </div>
         </div>
 
-
+        <div className="flex items-center">
+          <h1 className="mr-4 text-start font-bold font-serif text-xl">Collections</h1>
+          <hr className="border-gray-300 w-96 my-0" />
+        </div>
       </div>
 
 
