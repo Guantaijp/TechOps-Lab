@@ -88,24 +88,23 @@ function Art() {
             <img alt="example" src={exhibi} className="h-full mx-auto"></img>
           </div>
         </div>
-
-        <div className="flex items-center">
-          <h1 className="mr-4 text-start font-bold font-serif text-xl">Collections</h1>
-          <hr className="border-gray-300 w-96 my-0" />
-        </div>
       </div>
 
-      <div class="flex flex-wrap flex-row gap-4">
-  <div class="w-1/2 h-64 bg-gray-100"></div>
-  <div class="w-1/3 h-96 bg-gray-200"></div>
-  <div class="w-1/4 h-48 bg-gray-300"></div>
-  <div class="w-1/2 h-32 bg-gray-400"></div>
-  <div class="w-1/3 h-80 bg-gray-500"></div>
-  <div class="w-1/4 h-56 bg-gray-600"></div>
-  <div class="w-1/3 h-64 bg-gray-700"></div>
-  <div class="w-1/4 h-96 bg-gray-800"></div>
-  
-</div>
+      <div className="w-11/12 justify-center">
+        <h1 className=" text-start font-bold font-serif text-xl">Collections</h1>
+        <hr className="border-gray-300 w-full" />
+
+        <div class="flex flex-wrap flex-row gap-4">
+          <div class="w-1/2 h-64 bg-gray-100"></div>
+          <div class="w-1/3 h-96 bg-gray-200"></div>
+          <div class="w-1/4 h-48 bg-gray-300"></div>
+          <div class="w-1/2 h-32 bg-gray-400"></div>
+          <div class="w-1/3 h-80 bg-gray-500"></div>
+          <div class="w-1/4 h-56 bg-gray-600"></div>
+          <div class="w-1/3 h-64 bg-gray-700"></div>
+          <div class="w-1/4 h-96 bg-gray-800"></div>
+        </div>
+      </div>
 
     </>
   )
