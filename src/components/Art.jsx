@@ -90,21 +90,28 @@ function Art() {
         </div>
       </div>
 
-      <div className="w-11/12 justify-center">
-        <h1 className=" text-start font-bold font-serif text-xl">Collections</h1>
-        <hr className="border-gray-300 w-full" />
+      <div class="flex justify-center items-center">
+        <div class="w-11/12 text-center">
+          <h1 class="text-start font-bold font-serif text-xl">Collections</h1>
+          <hr class="border-gray-300 w-full" />
 
-        <div class="flex flex-wrap flex-row gap-4">
-          <div class="w-1/2 h-64 bg-gray-100"></div>
-          <div class="w-1/3 h-96 bg-gray-200"></div>
-          <div class="w-1/4 h-48 bg-gray-300"></div>
-          <div class="w-1/2 h-32 bg-gray-400"></div>
-          <div class="w-1/3 h-80 bg-gray-500"></div>
-          <div class="w-1/4 h-56 bg-gray-600"></div>
-          <div class="w-1/3 h-64 bg-gray-700"></div>
-          <div class="w-1/4 h-96 bg-gray-800"></div>
+          <div class="">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+              <div class="bg-purple-500 h-96 rounded-lg shadow-lg"></div>
+              <div class="bg-teal-500 h-64 rounded-lg shadow-lg"></div>
+              <div class="bg-red-500 h-80 rounded-lg shadow-lg"></div>
+              <div class="bg-yellow-400 h-56 rounded-lg shadow-lg"></div>
+              
+              <div class="bg-blue-500 h-72 rounded-lg shadow-lg"></div>
+              <div class="bg-yellow-500 h-48 rounded-lg shadow-lg"></div>
+              <div class="bg-green-500 h-88 rounded-lg shadow-lg"></div>
+              <div class="bg-purple-600 h-76 rounded-lg shadow-lg"></div>
+            </div>
+          </div>
+         
         </div>
       </div>
+
 
     </>
   )
