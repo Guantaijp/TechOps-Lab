@@ -4,31 +4,23 @@ import abstract from "../assets/abstract.jpg"
 import finearts from "../assets/finearts.jpg"
 import traditional from "../assets/traditional.jpg"
 import exhibi from "../assets/exhibi.jpg"
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-;
 
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
+
+
 
 function Art() {
   return (
 
     <>
-      <div classNameName="h-screen flex justify-center items-center relative">
+      <div className="h-screen flex justify-center items-center relative">
         <div
-          classNameName="absolute inset-0 bg-center bg-no-repeat"
+          className="absolute inset-0 bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${background})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover', // or 'cover'
-            height: '600px' // Adjust the desired height here
+            height: '800px' // Adjust the desired height here
           }}
         >
           <Navbar />
@@ -103,10 +95,6 @@ function Art() {
         </div>
       </div>
 
-      <div class="flex justify-center items-center">
-        <div class="w-11/12 text-center">
-          <h1 class="text-start font-bold font-serif text-xl">Collections</h1>
-          <hr class="border-gray-300 w-full" />
         </div>
       </div>
 
