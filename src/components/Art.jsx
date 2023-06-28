@@ -95,10 +95,7 @@ function Art() {
         </div>
       </div>
 
-        </div>
-      </div>
-
-
+        
     </>
   )
 }
