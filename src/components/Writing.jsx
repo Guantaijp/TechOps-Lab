@@ -2,8 +2,8 @@ import { Carousel } from 'antd';
 import Navbar from './Navbar';
 import "./Navbar.css"
 import Writing1 from "../assets/Writing1.png"
-import Writing2 from "../assets/Writing2.png"
-import Writing3 from "../assets/Writing3.png"
+//import Writing2 from "../assets/Writing2.png"
+//import Writing3 from "../assets/Writing3.png"
 import Writing4 from "../assets/Writing4.png"
 import Writing5 from "../assets/Writing5.png"
 
