@@ -13,6 +13,7 @@ function Writing() {
 
     <>
     <div className="h-screen flex justify-center items-center relative">
+
         <div
           className="absolute inset-0 bg-center bg-no-repeat"
           style={{
@@ -28,12 +29,13 @@ function Writing() {
               <span className="text-white">UNLOCK THE POWER OF WORDS WITH PROFESSIONAL WRITING SERVICES</span>
             </h1>
             <h2 className="text-2xl font-serif  mb-8">
-             Unleash the power of words with Nyakwar Opere Writing Agency. Elevate your brand, captivate your audience, and achieve remarkable success.
+              Unleash the power of words with Nyakwar Opere Writing Agency. Elevate your brand, captivate your audience, and achieve remarkable success.
             </h2>
           </div>
         </div>
 
       </div>
+
 
       
 
@@ -83,6 +85,7 @@ function Writing() {
 
 
 
+
       {/*services*/}
       <div className="services bg-[#806517] p-4 sm:p-8 md:p-12">
         <h1 className="text-lg sm:text-xl md:text-2xl text-white text-center font-bold">WOULD YOU LIKE TO GET OUR SERVICES?</h1>
@@ -94,29 +97,11 @@ function Writing() {
           <input type="text" placeholder="Message" className="px-4 py-2 border border-gray-300 rounded-lg mb-2 sm:mr-2" />
           <button type="submit" className="px-4 py-2 bg-[#d6aa24] text-white font-bold border border-[#806517] rounded-lg">Send</button>
         </form>
-      
+
 
       </div>
 
 
-     
-
-
-    
-
-     
-
-
-
-
-
-
-        
-          
-      
-    
-   
-    
     </>
   )
 }

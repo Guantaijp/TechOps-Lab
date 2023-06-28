@@ -8,6 +8,7 @@ import exhibi from "../assets/exhibi.jpg"
 
 
 
+
 function Art() {
   return (
 
@@ -94,12 +95,6 @@ function Art() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <div className="w-11/12 text-center">
-          <h1 className="text-start font-bold font-serif text-xl">Collections</h1>
-          <hr className="border-gray-300 w-full" />
-
-         
         </div>
       </div>
 
