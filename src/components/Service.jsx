@@ -13,7 +13,7 @@ function Service() {
                 <div className="m-4">
                     <Card
                         hoverable
-                        style={{ width: 332, borderRadius: 24 }}
+                        style={{ width: 332, }}
                         cover={<img alt="example" src={image} />}
                     >
                         <p className="text-lg font-bold"> Tech Company</p>
@@ -25,7 +25,7 @@ function Service() {
                 <div className="m-4">
                     <Card
                         hoverable
-                        style={{ width: 332, borderRadius: 24 }}
+                        style={{ width: 332, }}
                         cover={<img alt="example" src={writing} />}
                     >
                         <p className="text-lg font-bold"> Writing Agency</p>
@@ -37,7 +37,7 @@ function Service() {
                 <div className="m-4">
                     <Card
                         hoverable
-                        style={{ width: 332, borderRadius: 24 }}
+                        style={{ width: 332 }}
                         cover={<img alt="example" src={art} />}
                     >
                         <p className="text-lg font-bold"> Art Gallery</p>

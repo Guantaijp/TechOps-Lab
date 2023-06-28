@@ -4,18 +4,23 @@ import abstract from "../assets/abstract.jpg"
 import finearts from "../assets/finearts.jpg"
 import traditional from "../assets/traditional.jpg"
 import exhibi from "../assets/exhibi.jpg"
+
+
+
+
+
 function Art() {
   return (
 
     <>
-      <div classNameName="h-screen flex justify-center items-center relative">
+      <div className="h-screen flex justify-center items-center relative">
         <div
-          classNameName="absolute inset-0 bg-center bg-no-repeat"
+          className="absolute inset-0 bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${background})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover', // or 'cover'
-            height: '600px' // Adjust the desired height here
+            height: '800px' // Adjust the desired height here
           }}
         >
           <Navbar />
@@ -88,8 +93,9 @@ function Art() {
             <img alt="example" src={exhibi} className="h-full mx-auto"></img>
           </div>
         </div>
+      </div>
 
-
+        </div>
       </div>
 
 
