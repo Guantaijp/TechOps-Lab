@@ -16,7 +16,7 @@ function Service() {
                         style={{ width: 332, }}
                         cover={<img alt="example" src={image} />}
                     >
-                        <p className="text-lg font-bold"> Tech Company</p>
+                        <p className=" text-lg font-bold"> Tech Company</p>
                         <p className="text-sm">Nyakwar Opere Art Space, a creative haven where art comes to life. We are dedicated to providing a vibrant and inspiring environment for artists from all disciplines. Whether you're a painter or fine artist, our art space is designed to nurture your talent and foster collaboration. Join us as we celebrate the power of art and create a community where imagination knows no bounds.</p>
 
                     </Card>
