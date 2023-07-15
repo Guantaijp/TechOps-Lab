@@ -90,18 +90,19 @@ function HomePage() {
             <Service />
             {/* About Us */}
 
-            <About />
-
+        
+                <About />
+           
             {/* Team*/}
-            {/* <> */}
+          
             <div className="justify-center items-center  my-4 ">
                 <div className="flex flex-col items-center justify-center m-4">
-                    <h1 className="text-2xl font-bold text-center text-[#A47E1B]">OUR SERVICES</h1>
+                    <h1 className="text-2xl font-bold text-center text-[#A47E1B]">TEAM</h1>
                     <hr className="border-[#A47E1B] ext-center border-2 w-10" />
                 </div>
-             
+
                 <Swiper
-                  className='w-2/3'
+                    className='w-2/3'
                     pagination={{ clickable: true }}
                     autoplay={{ delay: 5000 }}
                     spaceBetween={30}

@@ -3,7 +3,7 @@ import about from '../assets/comp.jpg'
 function About() {
     return (
 
-
+        <section id="about">
         <div className="flex flex-col items-center justify-center ">
             <div className="flex flex-col items-center justify-center m-4">
                 <h1 className="text-2xl font-bold  text-[#A47E1B] mt-4">ABOUT US </h1>
@@ -17,6 +17,7 @@ function About() {
                 </div>
             </div>
         </div>
+        </section>
 
     )
 }

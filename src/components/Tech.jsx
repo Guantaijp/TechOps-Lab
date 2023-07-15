@@ -16,15 +16,24 @@ import Itech9 from "../assets/Itech9.jpg"
 
 
 function Tech() {
+
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <>
 
 
 
 
-<div classNameName="h-screen flex justify-center items-center relative">
+<div id="home" className="h-screen flex justify-center items-center relative">
         <div
-          classNameName="absolute inset-0 bg-center bg-no-repeat"
+          className="absolute inset-0 bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${itech})`,
             backgroundPosition: 'center',
@@ -32,7 +41,7 @@ function Tech() {
             height: '600px' // Adjust the desired height here
           }}
         >
-          <Navbar />
+          <Navbar scrollToAbout={scrollToAbout}/>
           <div className="text-center text-white mt-40 justify-center item-center mb-4">
             <h1 className="text-4xl font-bold mb-4">
               <span className="text-white">POWERING THE FUTURE WITH CUTTING-EDGE TECHNOLOGY</span>
