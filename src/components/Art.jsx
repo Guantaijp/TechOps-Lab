@@ -16,7 +16,7 @@ function Art() {
             backgroundImage: `url(${background})`,
             backgroundPosition: 'center',
             backgroundSize: 'cover', // or 'cover'
-            height: '800px' // Adjust the desired height here
+            height: '600px' // Adjust the desired height here
           }}
         >
           <Navbar />
@@ -63,7 +63,7 @@ function Art() {
             </div>
           </div>
 
-          <div className="hover:shadow-xl mx-2 mt-60">
+          <div className="hover:shadow-xl mx-2 ">
             <div className="w-72 bg-white ">
               <h1 className="text-start text-lg font-bold">Traditional arts</h1>
               <hr className="border-gray-300 mt-2" />
